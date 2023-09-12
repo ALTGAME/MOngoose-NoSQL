@@ -34,7 +34,7 @@ app.use(errorController.get404);
 
 mongoose
   .connect(
-    'mongodb+srv://krgpsh13:4AIUcAJaBtZqSyjc@cluster0.ve7gxkg.mongodb.net/?retryWrites=true&w=majority'
+    
   )
   .then(result => {
     app.listen(3000);
